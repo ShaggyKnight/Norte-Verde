@@ -69,6 +69,7 @@ body{
 .navbar-brand h1 a {
     text-decoration: none;
 	color:#fff;
+	color:#FFF0CC;
 	font-size: 1.5em;
     font-family: 'Rancho-Regular';
     text-transform: capitalize;
@@ -78,6 +79,7 @@ body{
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
+    color: rgb(39, 72, 31);
 	font-family: 'Rancho-Regular';
     font-size: 1.4em;
 }
@@ -86,7 +88,7 @@ body{
     background-color: rgba(249, 255, 247, 0.43);
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #fff;
+    color: #27481F;
     background-color: rgba(249, 255, 247, 0.43);
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
@@ -136,7 +138,7 @@ body{
 }
 .header{
     /*/images/sd1.jpg*/
-	background:url(../images/sd1.jpg) no-repeat 0px 0px;
+	background:url(../images/banner1.jpg) no-repeat 0px 0px;
 	background-size:cover;
    -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -161,15 +163,15 @@ body{
   }
 .rslides h3{
     /*color: #fff;*/
-    color: #C18C0F;
+    color: #FFF0CC;
     font-size: 4em;
     text-transform: capitalize;
 	font-family: 'Rancho-Regular';
 
 }
 .rslides h3 span {
-    color: #fff;
-    background-color: rgba(249, 255, 247, 0.42);
+    color: rgb(255, 255, 255);
+    background-color: rgba(24, 74, 8, 0.42);
     padding: .5em;
 }
 .rslides li {
@@ -529,7 +531,7 @@ ul#flexiselDemo1 li a h4:hover{
 }
 /**about**/
 .head-top {
-    min-height: 115px !important;
+    min-height: 215px !important;
 }
 .about-section{
 padding:4em 0;
