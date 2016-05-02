@@ -163,7 +163,7 @@ body{
   }
 .rslides h3{
     /*color: #fff;*/
-    color: #FFF0CC;
+    color: #E3DD55;
     font-size: 4em;
     text-transform: capitalize;
 	font-family: 'Rancho-Regular';
@@ -1655,5 +1655,10 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
 
 .color {
     text-decoration-color: black
+
+}
+
+.logo {
+    max-width: 75%;
 
 }
