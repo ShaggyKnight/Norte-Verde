@@ -163,7 +163,11 @@ body{
   }
 .rslides h3{
     /*color: #fff;*/
+<<<<<<< HEAD
     color: #E3DD55;
+=======
+    color: #00782A;
+>>>>>>> origin/master
     font-size: 4em;
     text-transform: capitalize;
 	font-family: 'Rancho-Regular';
