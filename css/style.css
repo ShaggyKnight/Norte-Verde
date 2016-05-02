@@ -59,7 +59,8 @@ body{
     margin: 0;
 }
 .navbar-default {
-    background: none!important;
+    /*background: none!important;*/
+    background: rgba(0, 24, 93, 0.37);
     border: none!important;
 }
 .top-menu ul li {
@@ -79,7 +80,8 @@ body{
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
-    color: rgb(39, 72, 31);
+    color: rgb(255, 255, 255);
+
 	font-family: 'Rancho-Regular';
     font-size: 1.4em;
 }
@@ -88,13 +90,14 @@ body{
     background-color: rgba(249, 255, 247, 0.43);
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #27481F;
+    color: #FFFFFF;
     background-color: rgba(249, 255, 247, 0.43);
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #5ab645
+    /*background-color: #5ab645 */
+    background-color: rgb(35, 132, 160)
 }
 .navbar {
     position: relative;
@@ -130,6 +133,7 @@ body{
 }
 .navbar-default {
     	padding: 1.2em 0;
+
 }
 .navbar-collapse {
     max-height: 340px;
@@ -162,7 +166,7 @@ body{
   margin: 0;
   }
 .rslides h3{
-    /*color: #fff;*/
+    color: rgb(98, 0, 0);
 <<<<<<< HEAD
     color: #E3DD55;
 =======
@@ -175,7 +179,7 @@ body{
 }
 .rslides h3 span {
     color: rgb(255, 255, 255);
-    background-color: rgba(24, 74, 8, 0.42);
+    background-color: rgba(90, 182, 69, 0.87);
     padding: .5em;
 }
 .rslides li {
@@ -465,7 +469,7 @@ ul#flexiselDemo1 li a h4:hover{
     line-height: 1.8em;
     color: #777;
     margin: 2em 0;
-	background: url(../images/quote.png) no-repeat 0px 0px;
+	/*background: url(../images/quote.png) no-repeat 0px 0px;*/
 	padding-left: 3em;
 }
 .popular-grid1 h4 a {
@@ -1072,6 +1076,10 @@ h2.typoh2{
 }
 .google-map {
   margin-top: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+
+
 }
 .contact-left p {
 	color: #777;
@@ -1327,6 +1335,7 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
     margin: 0;
     width: 100%;
     text-align: center;
+
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #652840;
@@ -1358,6 +1367,7 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
 }
 .navbar-default {
     padding: .5em 0;
+    background-color: rgba(37, 143, 96, 0);
 }
 .slider {
     margin: 4.5em 0 0 0;
@@ -1649,6 +1659,7 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
 }
 .contact-right {
     padding: 0;
+    color: #838383;
 }
 .contact-right input[type="submit"] {
     font-size: 0.9em;
