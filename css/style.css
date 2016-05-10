@@ -1202,6 +1202,8 @@ address {
 }
 .navbar-default .navbar-nav > li > a {
     font-size: 1.3em;
+    text-align: right;
+
 }
 .header {
     min-height: 363px;
