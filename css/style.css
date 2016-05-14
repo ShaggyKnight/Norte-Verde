@@ -113,7 +113,7 @@ body{
     line-height: 20px;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #fff;
+    color: #1a1717;
     background-color: rgba(249, 255, 247, 0.43);
 }
 .dropdown-menu > li > a {
@@ -1473,6 +1473,18 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
 }
 }
 @media (max-width:480px){
+.navbar-default .navbar-nav li.index a{
+    color:black;
+    }
+.navbar-default .navbar-nav li a{
+    color:rgb(36, 148, 10);
+    }
+.navbar-default .navbar-nav .active a{
+    color:black;
+    }
+.navbar-default .navbar-nav .open .dropdown-menu li a{
+     color:rgb(36, 148, 10);
+    }
 .header {
     background: url(../images/banner1.jpg) no-repeat -130px 0px;
     background-size: cover;
@@ -1557,6 +1569,7 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
 }
 }
 @media (max-width:320px){
+
 .header-top {
     padding: 0;
 }
