@@ -1004,6 +1004,9 @@ h2.typoh2{
 	h2.typoh2 {
 		font-size: 1.5em;
 	}
+    .logo{
+
+    }
 }
 @media (max-width:480px){
 	.table h1 {
@@ -1694,5 +1697,8 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
 
 .logo {
     max-width: 88%;
+    position: fixed;
+    z-index: 1;
+
 
 }
