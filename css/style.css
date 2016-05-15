@@ -1527,8 +1527,10 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
     font-size: 0.75em;
 }
 .head-top {
-    background-size: cover;
+    background-size: contain;
     background: url(../images/banner1.jpg) no-repeat 0px 0px;
+    background-position: center;
+    background-size: 48em;
 }
 .about-section h5 {
     font-size: 0.9em;
@@ -1631,6 +1633,8 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
     background-size: cover;
     background: url(../images/banner1.jpg) no-repeat 0px 0px;
 	    min-height: 100px !important;
+    background-position: center;
+    background-size: 48em;
 }
 .team-grid {
     width: 100%;
