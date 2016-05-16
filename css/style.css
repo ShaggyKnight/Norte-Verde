@@ -972,12 +972,16 @@ h2.typoh2{
     margin: 0 0 10px;
 }
 @media (max-width:768px){
+    .rslides h3 .navbar-toogle{
+        color: rgb(255, 245, 245);
+    }
 	.grid_5 {
 		padding: 0 0 1em;
 	}
 	.grid_3 {
 		margin-bottom: 0em;
 	}
+
 }
 @media (max-width:640px){
 	h1, .h1, h2, .h2, h3, .h3 {
@@ -1383,6 +1387,7 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
 .rslides h3 {
     font-size: 2.7em;
 }
+
 .header {
     min-height: 301px;
 }
@@ -1697,7 +1702,7 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
 
 .logo {
     max-width: 88%;
-    position: fixed;
+    position: absolute;
     z-index: 1;
 
 
